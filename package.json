@@ -1,0 +1,55 @@
+{
+  "name": "nuxt3",
+  "private": true,
+  "author": "wangkj",
+  "type": "module",
+  "scripts": {
+    "dev": "nuxt dev",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "nuxt prepare",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{js,ts,vue}": [
+      "eslint --fix"
+    ]
+  },
+  "dependencies": {
+    "@element-plus/nuxt": "^1.0.9",
+    "@fullcalendar/core": "^6.1.15",
+    "@fullcalendar/daygrid": "^6.1.15",
+    "@fullcalendar/interaction": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "@fullcalendar/vue3": "^6.1.15",
+    "@pinia/nuxt": "^0.5.1",
+    "@vant/nuxt": "^1.0.4",
+    "dayjs": "^1.11.12",
+    "element-plus": "^2.7.8",
+    "lodash-es": "^4.17.21",
+    "nuxt": "^3.10.2",
+    "vue": "^3.4.19",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.6.1",
+    "@commitlint/config-conventional": "^18.6.2",
+    "@nuxtjs/eslint-config-typescript": "^12.1.0",
+    "@types/lodash-es": "^4.17.12",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.1.3",
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.2",
+    "sass": "^1.71.0"
+  },
+  "engines": {
+    "node": "18.17.1",
+    "pnpm": "8.10.0"
+  },
+  "volta": {
+    "node": "18.17.1"
+  }
+}
