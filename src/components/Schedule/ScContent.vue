@@ -26,7 +26,7 @@
       <tbody>
         <tr v-for="(row, index) in rows" :key="index">
           <td>
-            <div class="cell">{{ row.label }}</div>
+            <div class="cell">{{ row.name }}</div>
           </td>
         </tr>
       </tbody>
@@ -79,7 +79,6 @@ function onChange() {
   border: 1px solid rgba(0, 0, 0, 0.3);
   border-width: 0;
   border-bottom-width: 1px;
-  font-size: 0;
 }
 .sc-content table th > .cell,
 .sc-content table td > .cell {

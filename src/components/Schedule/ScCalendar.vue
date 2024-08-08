@@ -113,7 +113,6 @@ function nextMonth() {}
   overflow: hidden;
   max-height: 30px;
   max-width: 30px;
-  font-size: 0;
   padding: 0;
   margin: 0;
 }
